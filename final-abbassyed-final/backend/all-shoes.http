@@ -1,0 +1,14 @@
+###
+GET http://localhost:3003/api/shoes
+content-type: application/json
+
+###
+POST http://localhost:3003/api/shoes
+content-type: multipart/form-data
+
+brand=Nike&model=Air%20Jordan%2011&description=New&designer=Tinker%20Hatfield&releaseYear=1994&originalPrice=12500&category=men
+
+
+
+
+
